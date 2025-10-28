@@ -1,12 +1,13 @@
 import React from "react";
 import HelloMoon from "../HelloMoon";
 
-const HelloWorld = () => {
-  let hello = "this is a child component";
+//tipe data props adalah object
+
+const HelloWorld = ({text}) => {
   return (
     <>
       <div className="text-[50px] bg-red-500 m-10 p-10 font-serif">
-        {hello}
+        {text}
         <HelloMoon />
       </div>
     </>

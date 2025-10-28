@@ -8,7 +8,9 @@ const App = () => {
       <div className="text-[50px] bg-blue-500 m-10 p-10 font-serif">
         {hello}
       </div>
-      <HelloWorld />
+      <HelloWorld text="This is a child component 1"/>
+      <HelloWorld text="This is a child component 2"/>
+      <HelloWorld text="This is a child component 3"/>
     </>
   );
 };
